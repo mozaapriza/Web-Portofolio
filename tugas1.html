@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moza Apriza Parinduri | Portofolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icon FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="navbar">
+        <div class="logo">
+            <span>Moza's Portofolio<i class="fa-solid fa-sun lantern-icon"></i></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#about">Tentang</a>
+            <a href="#skills">Kemampuan</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Hero / Tentang Saya -->
+    <section id="about" class="hero">
+        <!-- Hiasan Gambar Lentera Mengambang -->
+        <img src="lentera.png" alt="Rapunzel Lanterns" class="deco-lantern floating-lantern-1">
+        
+        <div class="hero-card">
+            <!-- Frame Foto Profil -->
+            <div class="profile-frame">
+                <!-- Ganti foto-moza.jpg dengan nama file fotomu -->
+                <img src="profile.jpeg" alt="Moza Apriza Parinduri" class="profile-img">
+            </div>
+
+            <!-- Teks Deskripsi -->
+            <div class="hero-text">
+                <span class="badge">Computer Science Student</span>
+                <h1>Halo, Saya <span class="highlight">Moza Apriza Parinduri</span></h1>
+                <p>
+                    Mahasiswa aktif Program Studi Ilmu Komputer Universitas Sumatera Utara yang memiliki 
+                    dasar kemampuan dalam pemrograman (Pascal, Python, C++), pengolahan data dengan 
+                    SPSS, serta perancangan visual menggunakan Figma untuk proyek perkuliahan. 
+                    Berpengalaman aktif dalam kepanitiaan kampus, terbiasa bekerja sama dalam tim, serta 
+                    antusias untuk terus mengasah kemampuan teknis dan komunikasi di lingkungan profesional.
+                    </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Karya <i class="fa-solid fa-sun"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            
+            <!-- Menara Rapunzel -->
+            <div class="tower-wrapper">
+                <img src="house.png" alt="Rapunzel Tower" class="deco-tower">
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian -->
+    <section id="skills" class="skills-section">
+        <div class="section-title">
+            <h2><span class="script-title">Keahlian</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                <h3>C / C++</h3>
+                <p>Struktur Data, Alokasi Memori Dinamis, Pointer, Vector, dan Algoritma Graf.</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon-box"><i class="fa-solid fa-database"></i></div>
+                <h3>PostgreSQL</h3>
+                <p>Perancangan skema database, psql CLI, pgAdmin, dan query terstruktur.</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, Flexbox, Layout Grid, dan desain web responsif untuk mobile.</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon-box"><i class="fa-brands fa-github"></i></div>
+                <h3>Tools & Version Control</h3>
+                <p>Git, GitHub Desktop, dan Manajemen Repositori Source Code.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="projects-section">
+        <div class="section-title">
+            <h2><span class="script-title">Proyek Portofolio</span></h2>
+            <p>Beberapa tugas dan proyek yang telah saya kembangkan</p>
+        </div>
+        <div class="projects-container">
+            
+            <article class="project-card">
+                <div class="pin"><i class="fa-solid fa-heart"></i></div>
+                <div class="project-tag">C++ Application</div>
+                <h3>Personal Finance Tracker</h3>
+                <p>Aplikasi pencatatan keuangan berbasis CLI menggunakan C++ dengan fitur ekspor data otomatis ke format CSV.</p>
+                <div class="tech-stack">
+                    <span>C++</span>
+                    <span>File Handling</span>
+                    <span>CSV</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="pin"><i class="fa-solid fa-heart"></i></div>
+                <div class="project-tag">QT Application</div>
+                <h3>BubblyWash Laundry</h3>
+                <p>Aplikasi laundry management yang bertujuan mempermudah pengguna dalam pengelolaan data dan pelayanan laundry menjadi lebih cepat, akurat, dan terorganisir. Project ini dikerjakan bersama Daniel Audrey, Ezer Nicholas, dan Salsabila Sujarwo.</p>
+                <div class="tech-stack">
+                    <span>Qt</span>
+                    <span>C++</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="pin"><i class="fa-solid fa-heart"></i></div>
+                <div class="project-tag">pygame</div>
+                <h3>Game Pop The Balloon </h3>
+                <p>Game yang mengimplementasikan perhitungan vektor untuk memecahkan balon. Project ini dikerjakan bersama Jesslyn Inggrid, Gabrielle Christin, dan Salsabila Sujarwo </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Game</span>
+                    <span>Vektor</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="contact-section">
+        <div class="contact-box">
+            <!-- Hiasan Gambar Lentera Kedua -->
+            <img src="lentera.png" alt="Rapunzel Lanterns" class="deco-lantern floating-lantern-2">
+
+            <h2>Mari Berkolaborasi! 🌸</h2>
+            <p>Ingin berdiskusi mengenai proyek pemrograman, basis data, atau sekadar menyapa? Kontak saya di bawah ini:</p>
+            
+            <div class="contact-links">
+                <a href="mailto:mozzaapriza@gmail.com" class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>mozzaapriza@gmail.com</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub Profile</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn Profile</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Moza Apriza Parinduri. Dibuat dengan sentuhan Rapunzel Fairytale ✨</p>
+    </footer>
+
+</body>
+</html>
